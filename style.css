@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Press Start 2P";
+}
+
+body {
+    background: rgb(22, 22, 22);
+}
+
+.card {
+    margin: 100px auto;
+    width: 400px;
+    height: 600px;
+    background: rgb(171,130,201);
+    background: linear-gradient(150deg, rgba(171,130,201,1) 0%, rgba(73,9,121,1) 44%, rgba(14,1,31,1) 100%);
+    border: 4px solid #ffffff;
+    border-radius: 10px;
+}
+
+.name{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    border-radius: 4px;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 1px;
+}
+
+.avatar {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.avatar img {
+    width: 200px;
+}
+
+.stats h3 {
+    text-align: center;
+}
+
+.stats h4 {
+    padding-bottom: 2px;
+}
+
+.stats {
+    color: white;
+}
+
+.stats ul {
+    display: flex;
+    list-style: none;
+    padding: 10px 10px 0px 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 0.8rem;
+}
+
+.stats li {
+    margin: 5px;
+}
+
+ul .skills {
+    list-style: inside;
+    display: flex;
+    flex-direction: column;
+    padding-top: 0;
+}
+
+.bio {
+    margin: 0px 10px;
+    padding: 5px;
+}
+
+.bio h4 {
+    margin-bottom: 4px;
+}
+
+.bio p {
+    font-size: 0.5rem;
+}
+
+footer {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    font-size: 80px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
